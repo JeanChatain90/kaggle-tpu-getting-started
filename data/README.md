@@ -10,3 +10,8 @@ Please download it manually using the Kaggle API.
 1. Make sure you have installed the Kaggle CLI:
 ```bash
 pip install kaggle
+```
+2. Download data
+```bash
+kaggle competitions download -c tpu-getting-started
+```
