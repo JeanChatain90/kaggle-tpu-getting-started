@@ -1,0 +1,5 @@
+# Ignore all data files
+data/*
+
+# Keep this README to explain how to get data
+!data/README.md
