@@ -6,14 +6,14 @@ This repository contains the complete pipeline: data preprocessing, model traini
 
 ----
 
-# Competition Overview
+## Competition Overview
 The ["TPU Getting Started"](https://www.kaggle.com/competitions/tpu-getting-started) competition is designed to help participants learn how to train deep learning models using **Tensor Processing Units (TPUs)** for image classification.
 
 The dataset contains labeled images of **flowers** (daisy, dandelion, rose, sunflower, tulip) to be classified into the correct category.
 
 ---
 
-# Project Goals
+## Project Goals
 - Train a deep learning model (CNN) for flower image classification
 - Leverage **TPU acceleration** for faster training
 - Build a **reproducible pipeline** from data download to final submission
@@ -21,9 +21,10 @@ The dataset contains labeled images of **flowers** (daisy, dandelion, rose, sunf
 
 ---
 
-# Repository Structure
-
-
+## Repository Structure
+```
+kaggle-tpu-getting-started/
+│
 ├── notebooks/ # Jupyter Notebooks
 │ ├── EDA.ipynb # Exploratory Data Analysis
 │ ├── training.ipynb # Model training
@@ -42,3 +43,4 @@ The dataset contains labeled images of **flowers** (daisy, dandelion, rose, sunf
 ├── requirements.txt # Python dependencies
 ├── README.md # Project description
 └── .gitignore # Ignored files & folders
+```
