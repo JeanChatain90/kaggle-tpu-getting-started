@@ -22,7 +22,8 @@ The dataset contains labeled images of **flowers** (daisy, dandelion, rose, sunf
 ---
 
 # Repository Structure
-│
+
+
 ├── notebooks/ # Jupyter Notebooks
 │ ├── EDA.ipynb # Exploratory Data Analysis
 │ ├── training.ipynb # Model training
